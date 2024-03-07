@@ -30,4 +30,4 @@ app.use(dbSetup);
 app.use('/', routes);
 
 // Server
-app.listen(port, () => console.log(`Server now running on :${port}`));
+app.listen(port, () => console.log(`Server is running on :${port}`));
